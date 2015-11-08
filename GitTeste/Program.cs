@@ -23,6 +23,8 @@ namespace GitTeste
                 hashCommits += commit.Sha + "\n";
             }
 
+            // Teste
+
             Console.WriteLine(hashCommits);
         }
     }
