@@ -1,1 +1,13 @@
 c:\users\avell g1740new\documents\visual studio 2015\Projects\GitTeste\GitTeste\bin\Debug\GitTeste.exe.config
+C:\Repositorios\teste-git\GitTeste\bin\Debug\GitTeste.exe
+C:\Repositorios\teste-git\GitTeste\bin\Debug\LibGit2Sharp.dll
+C:\Repositorios\teste-git\GitTeste\bin\Debug\GitTeste.exe.config
+C:\Repositorios\teste-git\GitTeste\bin\Debug\NativeBinaries\amd64\git2-e0902fb.dll
+C:\Repositorios\teste-git\GitTeste\bin\Debug\NativeBinaries\amd64\git2-e0902fb.pdb
+C:\Repositorios\teste-git\GitTeste\bin\Debug\NativeBinaries\x86\git2-e0902fb.dll
+C:\Repositorios\teste-git\GitTeste\bin\Debug\NativeBinaries\x86\git2-e0902fb.pdb
+C:\Repositorios\teste-git\GitTeste\bin\Debug\LibGit2Sharp.xml
+C:\Repositorios\teste-git\GitTeste\obj\Debug\GitTeste.csprojResolveAssemblyReference.cache
+C:\Repositorios\teste-git\GitTeste\obj\Debug\GitTeste.exe
+C:\Repositorios\teste-git\GitTeste\obj\Debug\GitTeste.pdb
+C:\Repositorios\teste-git\GitTeste\bin\Debug\GitTeste.pdb

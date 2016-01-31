@@ -9,21 +9,22 @@ namespace GitTeste
         static void Main(string[] args)
         {
             var caminhoRepositorio = args[0];
-            var repositorio = new Repository(caminhoRepositorio);
-
-            var hashCommit = args[1];
-            var commitInicial = repositorio.Commits.FirstOrDefault(commit => commit.Sha == hashCommit);
-
-            var branchMergeRequest = repositorio.Branches.FirstOrDefault(branch => branch.Commits.Contains(commitInicial));
+            //var nomeBranch = args[1];
 
             var hashCommits = string.Empty;
 
-            foreach (var commit in branchMergeRequest.Commits)
+            using (var repositorio = new Repository(caminhoRepositorio))
             {
-                hashCommits += commit.Sha + "\n";
-            }
+                var branchInformado = repositorio.Branches.FirstOrDefault(branch => branch.Name == "Teste");
 
-            // Teste
+                foreach (var commit in branchInformado.Commits)
+                {
+                    if (commit != branchInformado.TrackingDetails.CommonAncestor)
+                    {
+                        hashCommits += commit.Sha + "\r\n";
+                    }
+                }
+            }
 
             Console.WriteLine(hashCommits);
         }
